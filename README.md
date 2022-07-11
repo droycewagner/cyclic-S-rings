@@ -34,7 +34,7 @@ How to run
 
 Since the S-rings are produced recursively, using information about the S-rings of smaller order, the computational load is much higher for a group order with a large number of divisors. For example, when *cyc(100)* is run, about 86% of the time taken in the computation (on the order of one hour) is spent on the cyclic group of order 96.
 
-To run this, paste the code found in cyc_rings.m at the [MAGMA calculator](http://magma.maths.usyd.edu.au/calc/) and adding a line at the end to run one of the two main functions.
+To run this, paste the code found in cyc_rings.m at the [MAGMA calculator](http://magma.maths.usyd.edu.au/calc/) followed by a call to on of the functions *cycls* or *cyc*. 
 
 Table summarizing results
 -------------------------
